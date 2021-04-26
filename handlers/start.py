@@ -27,7 +27,7 @@ Dikelola oleh ✨ [Rezy](t.me/ItsmeAlsya). Thanks!
                         "🔉 Channel", url="https://t.me/gabutannyaumat") 
                   ],[
                     InlineKeyboardButton(
-                        "📈 Official Group", url="https://t.me/Republicfirend"
+                        "📈 Official Group", url="https://t.me/Republicfriend"
                     )
                 ]
             ]
