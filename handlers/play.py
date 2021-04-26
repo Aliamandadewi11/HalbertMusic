@@ -424,7 +424,7 @@ async def play(_, message: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak dapat bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @IramaMusikBot ke grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @StarMusicPlay_bot ke grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -478,7 +478,7 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "📱 Follow Instagram", url="https://t.me/VcgSupportGroup") 
+                        "✨ Star Music", url="https://t.me/ItsmeAlsya") 
                 ],
                 [       
                     InlineKeyboardButton(
@@ -561,7 +561,7 @@ async def deezer(client: Client, message_: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak bisa bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @IramaMusikBot ke Grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @StarMusicPlay_bot ke Grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -608,10 +608,10 @@ async def deezer(client: Client, message_: Message):
              ],                     
              [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/VcgSupportGroup"
+                        "Channel", url="https://t.me/StarMusicTelegram"
                     ),
                     InlineKeyboardButton(
-                        "Owner 🖥", url="https://instagram.com/hendraputraaaaaa"
+                        "Owner 🖥", url="https://t.me/ItsmeAlsya"
                     )
                 ],
              [       
@@ -693,7 +693,7 @@ async def jiosaavn(client: Client, message_: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak bisa bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @IramaMusikBot ke Grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @StarMusicPlay_bot ke Grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -736,10 +736,10 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                 InlineKeyboardButton(
-                        "Group Support", url="https://t.me/VcgSupportGroup"
+                        "Channel", url="https://t.me/StarMusicTelegram"
                 ),
                 InlineKeyboardButton(
-                        "📲 Owner", url="https://instagram.com/hendraputraaaaaa"
+                        "📲 Owner", url="https://t.me/ItsmeAlsya"
                 )
             ],
              [       
