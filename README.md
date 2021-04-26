@@ -1,11 +1,11 @@
-<h1 align="centre">𝗜𝗿𝗮𝗺𝗮 𝗠𝘂𝘀𝗶𝗸🎵</h1>
+<h1 align="centre"> Star Music ✨</h1>
 
-### Bot yang dapat memutar musik pada panggilan suara grup telegram
+### Bot yang dapat memutar musik pada panggilan suara Grup Telegram
 
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/cea5796cccbe98d8df28d.jpg">
+  <img src="https://telegra.ph/file/99386c0156db4e85e3b11.jpg">
 </p>
 
 <h2> Fitur Terbaru 🔥 </h2>
@@ -50,11 +50,12 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HalbertKun/HalbertMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItsmeVipersz/HalbertMusic)
 
 Gunakan String Pyrogam
 
 ### Credits
+- [Rezy](https://t.me/ItsmeAlsya)
 - [Halbert](https://github.com/HalbertKun):
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
