@@ -478,7 +478,7 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "✨ Star Music", url="https://t.me/ItsmeAlsya") 
+                        "✨ Star || Music ✨", url="https://t.me/ItsmeAlsya") 
                 ],
                 [       
                     InlineKeyboardButton(
