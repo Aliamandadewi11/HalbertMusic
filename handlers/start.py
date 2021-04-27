@@ -11,17 +11,17 @@ async def start(_, message: Message):
 Aku adalah Star Music Bot, bot sumber terbuka yang memungkinkan Anda memutar musik di Grup Telegram Anda.
 Tidak mengetahui cara memakainya? Baca panduan pemakaian agar langsung memahami tanpa bertanya!
 ━━━━━━━━━━━━━━━━━━━━━━
-Bot : @StarMusicPlay_bot - Asisten : @StarzMusicAssistant
+MusicBot : @StarMusicPlay_bot - MusicAsisten : @StarzMusicAssistant
 Dikelola oleh ✨ [Rezy](t.me/ItsmeAlsya). Thanks! 
         """,
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "Channel Support", url="https://t.me/StarMusicTelegram")
+                        "📌 Panduan", url="https://t.me/StarMusicTelegram")
                   ],[
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/ItsmeAlsya"
+                        "Owner 🎶", url="https://t.me/ItsmeAlsya"
                     ),
                     InlineKeyboardButton(
                         "🔉 Channel", url="https://t.me/gabutannyaumat") 
