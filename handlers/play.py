@@ -172,7 +172,7 @@ def r_ply(type_):
                 
             ],
             [
-                InlineKeyboardButton('Playlist 📝', 'playlist'),
+                InlineKeyboardButton('Playlist ', 'playlist'),
                 
             ],
             [       
@@ -234,8 +234,8 @@ async def p_cb(b, cb):
         now_playing = temp[0][0]
         by = temp[0][1].mention(style='md')
         msg = "**• Daftar lagu yang sedang diputar di grup {}:**".format(cb.message.chat.title)
-        msg += "\n♬ "+ now_playing
-        msg += "\n♬ Permintaan "+by
+        msg += "\n🎼"+ now_playing
+        msg += "\n🎼 Permintaan "+by
         msg += "\n───────────────────────"
         temp.pop(0)
         if temp:
@@ -244,8 +244,8 @@ async def p_cb(b, cb):
              for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
-                 msg += f'\n♬ {name}'
-                 msg += f'\n♬ Permintaan {usr}'
+                 msg += f'\n🎼 {name}'
+                 msg += f'\n🎼 Permintaan {usr}'
                  msg += f'\n┈─────────────────────┈'
         await cb.message.edit(msg)      
 
@@ -296,8 +296,8 @@ async def m_cb(b, cb):
         now_playing = temp[0][0]
         by = temp[0][1].mention(style='md')
         msg = "**• Daftar lagu yang sedang diputar di grup {}:**".format(cb.message.chat.title)
-        msg += "\n♬ "+ now_playing
-        msg += "\n♬ Permintaan "+by
+        msg += "\n🎼 "+ now_playing
+        msg += "\n🎼 Permintaan "+by
         msg += "\n───────────────────────"
         temp.pop(0)
         if temp:
@@ -306,8 +306,8 @@ async def m_cb(b, cb):
              for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
-                 msg += f'\n♬ {name}'
-                 msg += f'\n♬ Permintaan {usr}\n'
+                 msg += f'\n🎼{name}'
+                 msg += f'\n🎼 Permintaan {usr}\n'
                  msg += f'\n┈─────────────────────┈'
         await cb.message.edit(msg)      
                       
@@ -348,7 +348,7 @@ async def m_cb(b, cb):
                 
                 ],
                 [
-                    InlineKeyboardButton('Playlist 📝', 'playlist'),
+                    InlineKeyboardButton('Playlist ', 'playlist'),
                 
                 ],
                 [       
@@ -393,7 +393,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Mencari lagu...**")
+    lel = await message.reply("▷ **Mencari lagu...**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     usar = await USER.get_me()
@@ -420,7 +420,7 @@ async def play(_, message: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak dapat bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @IramaMusikBot ke grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @StarzSong_bot ke grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -444,7 +444,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("🎵 **Sedang Memproses**")
+    await lel.edit("🎶 **Sedang Memproses**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -474,7 +474,7 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "Support Channel 🖥", url="https://t.me/AkuUserBot") 
+                        "Starz Music 🖥", url="https://t.me/ItsmeAlsya") 
                 ],
                 [       
                     InlineKeyboardButton(
@@ -516,7 +516,7 @@ async def play(_, message: Message):
         photo="final.png",
         reply_markup=keyboard,
         caption=f"🏷 **Judul:** {title}\n**⏱ Durasi:** {duration}\n" \
-                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {requested_by}".format(
+                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {usr}".format(
         message.from_user.mention()
         ),
     )
@@ -558,7 +558,7 @@ async def deezer(client: Client, message_: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak bisa bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @IramaMusikBot ke Grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @StarzSong_bot ke Grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -600,15 +600,15 @@ async def deezer(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
          [   
              [
-                 InlineKeyboardButton('📝 Playlist', callback_data='playlist'),
+                 InlineKeyboardButton(' Playlist', callback_data='playlist'),
                  InlineKeyboardButton('Menu ⏯ ', callback_data='menu')     
              ],                     
              [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/VcgSupportGroup"
+                        "Starz Music", url="https://t.me/ItsmeAlsya"
                     ),
                     InlineKeyboardButton(
-                        "Owner 🖥", url="https://instagram.com/hendraputraaaaaa"
+                        "Owner 🖥", url="https://instagram.com/ridhoalfahrezi._"
                     )
                 ],
              [       
@@ -662,7 +662,7 @@ async def deezer(client: Client, message_: Message):
 )
 async def jiosaavn(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Sedang memproses...**")
+    lel = await message_.reply("🎶 **Sedang memproses...**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     usar = await USER.get_me()
@@ -690,7 +690,7 @@ async def jiosaavn(client: Client, message_: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak bisa bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @IramaMusikBot ke Grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @StarzSong_bot ke Grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -728,15 +728,15 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
          [   
              [
-               InlineKeyboardButton('📝 Playlist', callback_data='playlist'),
+               InlineKeyboardButton(' Playlist', callback_data='playlist'),
                InlineKeyboardButton('Dashboard', callback_data='menu')   
              ],                     
              [
                 InlineKeyboardButton(
-                        "Group Support", url="https://t.me/VcgSupportGroup"
+                        "Starz Music", url="https://t.me/ItsmeAlsya"
                 ),
                 InlineKeyboardButton(
-                        "📲 Owner", url="https://instagram.com/hendraputraaaaaa"
+                        "📲 Owner", url="https://instagram.com/ridhoalfahrezi._"
                 )
             ],
              [       
