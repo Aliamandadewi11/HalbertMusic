@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/cea5796cccbe98d8df28d.jpg
+  <img src="https://telegra.ph/file/8cda224c676a450770b91.jpg
 </p>
 
 <h2> Fitur Terbaru 🔥 </h2>
