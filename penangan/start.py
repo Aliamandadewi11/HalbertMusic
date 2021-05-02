@@ -8,26 +8,26 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hai {message.from_user.first_name}!</b>
 
-Aku adalah Star Music Bot, bot sumber terbuka yang memungkinkan Anda memutar musik di Grup Telegram Anda.
+Aku adalah Lestari Musik, bot sumber terbuka yang memungkinkan Anda memutar musik di Grup Telegram Anda.
 Tidak mengetahui cara memakainya? Baca panduan pemakaian agar langsung memahami tanpa bertanya!
 ━━━━━━━━━━━━━━━━━━━━━━
-Bot : @StarMusicPlay_bot - Asisten : @StarzMusicAssistant
-Dikelola oleh ✨ [Rezy](t.me/ItsmeAlsya). Thanks! 
+Bot : @Lestarimusikbot - Asisten : @LestariBotAssistant
+Dikelola oleh ✨ [Manda](t.me/aamdys). Thanks! 
         """,
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "📌 Panduan", url="https://t.me/StarMusicTelegram")
+                        "📌 Panduan", url="https://t.me/Lestarimusik")
                   ],[
                     InlineKeyboardButton(
-                        "Owner 🎶", url="https://t.me/ItsmeAlsya"
+                        "Owner 🎶", url="https://t.me/aamdys"
                     ),
                     InlineKeyboardButton(
-                        "🔉 Channel", url="https://t.me/gabutannyaumat") 
+                        "🔉 Channel", url="https://t.me/noteshati") 
                   ],[
                     InlineKeyboardButton(
-                        "📈 Official Group", url="https://t.me/Republicfriend"
+                        "📈 Official Group", url="https://t.me/familybrden"
                     )
                 ]
             ]
@@ -42,10 +42,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Official Group", url="https://t.me/Republicfriend"
+                        "Official Group", url="https://t.me/familybrden"
                     ),
                     InlineKeyboardButton(
-                        "Owner Bot", url="https://t.me/ItsmeAlsya"
+                        "Owner Bot", url="https://t.me/aamdys"
                     )
                 ]
             ]
@@ -59,10 +59,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡ Star Music⚡", url="https://t.me/ItsmeAlsya") 
+                        "⚡ Lestari musik⚡", url="https://t.me/aamdys") 
                 ],[
                     InlineKeyboardButton(
-                        "Official Group", url="https://t.me/Republicfriend"
+                        "Official Group", url="https://t.me/familybrden"
                     )
                 ]
             ]
