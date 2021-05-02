@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="https://images (19).png
+  <img src="https://telegra.ph//mages (19).png
 </p>
 
 <h2> Fitur Terbaru 🔥 </h2>
