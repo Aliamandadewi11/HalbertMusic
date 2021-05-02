@@ -11,7 +11,7 @@ async def start(_, message: Message):
 Aku adalah Lestari Musik, bot sumber terbuka yang memungkinkan Anda memutar musik di Grup Telegram Anda.
 Tidak mengetahui cara memakainya? Baca panduan pemakaian agar langsung memahami tanpa bertanya!
 ━━━━━━━━━━━━━━━━━━━━━━
-Bot : @Lestarimusikbot - Asisten : @LestariBotAssistant
+Bot : @Lestarimusik - Asisten : @LestariBotAssistant
 Dikelola oleh ✨ [Manda](t.me/aamdys). Thanks! 
         """,
         reply_markup=InlineKeyboardMarkup(
