@@ -50,12 +50,12 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aliamanda11/HalbertMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aliamandadewi11/HalbertMusic)
 
 Gunakan String Pyrogam
 
 ### Credits
-- [Manda](https://t.me/github.com/Aliamanda11)
+- [Manda](https://t.me/github.com/Aliamandadewi11)
 - [Rezy](https://t.me/ItsmeAlsya)
 - [Halbert](https://github.com/HalbertKun):
 - [InukaASiTH](https://github.com/InukaAsith): Dev
