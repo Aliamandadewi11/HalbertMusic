@@ -1,4 +1,4 @@
-<h1 align="centre"> Star Music ✨</h1>
+<h1 align="centre"> Lestari musik ✨</h1>
 
 ### Bot yang dapat memutar musik pada panggilan suara Grup Telegram
 
@@ -50,11 +50,12 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItsmeVipersz/HalbertMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aliamanda11/HalbertMusic)
 
 Gunakan String Pyrogam
 
 ### Credits
+- [Manda](https://t.me/github.com/Aliamanda11)
 - [Rezy](https://t.me/ItsmeAlsya)
 - [Halbert](https://github.com/HalbertKun):
 - [InukaASiTH](https://github.com/InukaAsith): Dev
