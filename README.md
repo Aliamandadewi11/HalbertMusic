@@ -1,11 +1,11 @@
-<h1 align="centre"> Lestari musik ✨</h1>
+<h1 align="centre"> Lestari music ✨</h1>
 
 ### Bot yang dapat memutar musik pada panggilan suara Grup Telegram
 
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/99386c0156db4e85e3b11.jpg">
+  <img src="https://images (19).png
 </p>
 
 <h2> Fitur Terbaru 🔥 </h2>
