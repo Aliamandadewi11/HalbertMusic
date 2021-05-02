@@ -59,7 +59,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡ Lestari musik⚡", url="https://t.me/aamdys") 
+                        "⚡ Lestari music⚡", url="https://t.me/aamdys") 
                 ],[
                     InlineKeyboardButton(
                         "Official Group", url="https://t.me/familybrden"
