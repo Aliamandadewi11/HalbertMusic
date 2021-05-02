@@ -424,7 +424,7 @@ async def play(_, message: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak dapat bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @lestaribotassistant ke grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @lestariBotAssistant ke grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -561,7 +561,7 @@ async def deezer(client: Client, message_: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak bisa bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @lestaribotassistant ke Grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @lestariBotAssistant ke Grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
@@ -693,7 +693,7 @@ async def jiosaavn(client: Client, message_: Message):
                    #print(e)
                    #await lel.edit(
                    #    f"<b>Pengguna {user.first_name} tidak bisa bergabung dengan grup Anda! Pastikan pengguna tidak diblokir dalam grup."
-                   #    "\n\nAtau tambahkan @lestaribotassistant ke Grup Anda secara manual dan coba lagi</b>",
+                   #    "\n\nAtau tambahkan @lestariBotAssistant ke Grup Anda secara manual dan coba lagi</b>",
                    #)
                    pass
     try:
