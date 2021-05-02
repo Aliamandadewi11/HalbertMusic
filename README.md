@@ -1,4 +1,4 @@
-<h1 align="centre"> Lestari music🎵</h1>
+<h1 align="centre"> Music Lestari🎵</h1>
 
 ### Bot yang dapat memutar musik pada panggilan suara Grup Telegram
 
